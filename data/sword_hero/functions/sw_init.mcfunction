@@ -1,0 +1,45 @@
+scoreboard objectives add sp dummy
+scoreboard objectives add absorb trigger
+scoreboard objectives add craft_sp_potion trigger
+scoreboard objectives add sword_a_coords dummy
+scoreboard objectives add sword_b_coords dummy
+scoreboard objectives add sword_c_coords dummy
+scoreboard objectives add rope_smelt dummy
+scoreboard objectives add portal_smelt dummy
+scoreboard objectives add greed_smelt dummy
+scoreboard objectives add star_smelt dummy
+scoreboard objectives add smelt trigger
+scoreboard objectives add party trigger
+scoreboard objectives add basic_sw trigger
+scoreboard objectives add disband trigger
+scoreboard objectives add check_energy trigger
+scoreboard objectives add take_energy trigger
+scoreboard objectives add give_energy trigger
+scoreboard objectives add sword-portal trigger
+scoreboard objectives add sword-rope trigger
+scoreboard objectives add sword-greed trigger
+scoreboard objectives add sword-star trigger
+scoreboard objectives add set_warp_a trigger
+scoreboard objectives add set_warp_b trigger
+scoreboard objectives add set_warp_c trigger
+scoreboard objectives add warp_a trigger
+scoreboard objectives add warp_b trigger
+scoreboard objectives add warp_c trigger
+scoreboard objectives add status trigger
+scoreboard objectives add guillo trigger
+scoreboard objectives add gold trigger
+scoreboard objectives add status_all trigger
+scoreboard objectives add select minecraft.custom:minecraft.drop
+scoreboard objectives add sword_ep dummy
+scoreboard objectives add swordcounter dummy
+scoreboard objectives add timer dummy
+scoreboard objectives add greed-counter dummy
+scoreboard objectives add ropeprof dummy
+scoreboard objectives add portalprof dummy
+scoreboard objectives add greedprof dummy
+scoreboard objectives add starprof dummy
+scoreboard objectives add right_click minecraft.used:minecraft.carrot_on_a_stick
+gamerule sendCommandFeedback false
+scoreboard objectives add ass minecraft.custom:minecraft.sneak_time
+gamerule mobGriefing false
+function fafik77:rng/init

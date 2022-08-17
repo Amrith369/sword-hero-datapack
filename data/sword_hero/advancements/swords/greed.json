@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Sword of Greed",
+            "color": "gold",
+            "italic": true
+        },
+        "description": {
+            "text": "<abilities locked> equip bonus: skill: \"Assassinating Sword,\" \"Maneater,\" \"Guillotine\" and \"Gold Rebellion\""
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3690013}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "skillone": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

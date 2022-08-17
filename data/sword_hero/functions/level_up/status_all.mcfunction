@@ -1,0 +1,4 @@
+execute as @a[scores={status_all=1..},advancements={sword_hero:swords/rope=true}] run tellraw @s ["",{"text":"Rope Proficiency: ","bold":true,"color":"#9bcff7"},{"score":{"name":"@s","objective":"ropeprof"},"bold":true,"color":"aqua"},{"text":"%","color":"dark_aqua"}]
+execute as @a[scores={status_all=1..},advancements={sword_hero:swords/portal=true}] run tellraw @s ["",{"text":"Portal Proficiency: ","bold":true,"color":"#2B41FF"},{"score":{"name":"@s","objective":"portalprof"},"bold":true,"color":"aqua"},{"text":"%","color":"dark_aqua"}]
+execute as @a[scores={status_all=1..},advancements={sword_hero:swords/star=true}] run tellraw @s ["",{"text":"Siderite Proficiency: ","bold":true,"color":"#5991FF"},{"score":{"name":"@s","objective":"starprof"},"bold":true,"color":"aqua"},{"text":"%","color":"dark_aqua"}]
+scoreboard players set @s[tag=sword] status_all 0

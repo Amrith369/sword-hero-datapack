@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Recovery of the Sword Hero",
+        "description": "Functional Sword Hero Datapack",
+        "icon": {
+            "item": "carrot_on_a_stick",
+            "nbt": "{CustomModelData:3690011}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:amrith",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

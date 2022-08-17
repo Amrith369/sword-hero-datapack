@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Legendary Sword",
+            "color": "#40C6FF",
+            "bold": true,
+            "italic": false
+        },
+        "description": {
+            "text": "<abilities unlocked> Equip Bonus: attack 3 agility 3"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3690011}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/gray_concrete.png"
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
