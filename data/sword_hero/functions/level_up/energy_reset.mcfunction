@@ -26,6 +26,13 @@ scoreboard players set @a[scores={take_energy=1,starprof=0},nbt={SelectedItem:{i
 scoreboard players add @a[scores={give_energy=1..,sword_ep=20..,starprof=..1000},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690015}}}] starprof 1
 scoreboard players remove @a[scores={give_energy=1..,sword_ep=20..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690015}}}] sword_ep 20
 scoreboard players set @a[scores={give_energy=1..,sword_ep=..19},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690015}}}] give_energy 0
+#STAR
+scoreboard players add @a[scores={take_energy=1,woodenprof=1..},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] sword_ep 20
+scoreboard players remove @a[scores={take_energy=1,woodenprof=1..},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] woodenprof 1
+scoreboard players set @a[scores={take_energy=1,woodenprof=0},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] take_energy 0
+scoreboard players add @a[scores={give_energy=1..,sword_ep=20..,woodenprof=..1000},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] woodenprof 1
+scoreboard players remove @a[scores={give_energy=1..,sword_ep=20..},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] sword_ep 20
+scoreboard players set @a[scores={give_energy=1..,sword_ep=..19},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] give_energy 0
 #Messages
 execute as @a[tag=sword,scores={give_energy=1..}] run title @s[tag=sword] actionbar [{"text":"Imbuing Energy Points...","color":"aqua"}]
 execute as @a[tag=sword,scores={take_energy=1..}] run title @s[tag=sword] actionbar [{"text":"Resetting Proficiency...","color":"gold"}]

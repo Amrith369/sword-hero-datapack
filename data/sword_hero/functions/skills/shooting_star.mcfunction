@@ -9,6 +9,6 @@ execute at @e[tag=star] run summon minecraft:fireball ^ ^1 ^ {life:20,ExplosionP
 execute at @e[tag=star] run summon firework_rocket ^ ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
 execute at @e[tag=star] run summon firework_rocket ^1 ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
 execute at @e[tag=star] run summon firework_rocket ^-1 ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
-execute at @e[tag=star] run scoreboard players remove @a[tag=sword,distance=0..5] sp 25
+execute at @e[tag=star] run scoreboard players remove @a[tag=sword,distance=0..7] sp 15
 kill @e[tag=star]
 scoreboard players set @s right_click 0
