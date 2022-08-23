@@ -1,0 +1,11 @@
+execute as @a[scores={smelt=1..,wooden_smelt=0},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-1
+execute as @a[scores={smelt=1..,wooden_smelt=1},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-2
+execute as @a[scores={smelt=1..,wooden_smelt=2},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-3
+execute as @a[scores={smelt=1..,wooden_smelt=3},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-4
+execute as @a[scores={smelt=1..,wooden_smelt=4},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-5
+execute as @a[scores={smelt=1..,wooden_smelt=5},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-6
+execute as @a[scores={smelt=1..,wooden_smelt=6},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-7
+execute as @a[scores={smelt=1..,wooden_smelt=7},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-8
+execute as @a[scores={smelt=1..,wooden_smelt=8},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-9
+execute as @a[scores={smelt=1..,wooden_smelt=9},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-10
+execute as @a[scores={smelt=1..,wooden_smelt=10},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelting_wooden-11

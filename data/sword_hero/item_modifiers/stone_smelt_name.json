@@ -1,0 +1,187 @@
+[
+  {
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": [
+    {
+      "text": "Stone Sword 0/4 C +",
+      "color": "gold",
+      "bold": true
+    },
+    {
+      "score": {
+        "name": "@s",
+        "objective": "stone_smelt",
+        "value": "@s"
+      },
+      "color": "gold",
+      "bold": true,
+      "italic": true
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "stone_smelt": {
+          "min": 1,
+          "max": 999
+        },
+        "stoneprof": {
+          "min": 0,
+          "max": 99
+        }
+      }
+    }
+  ]
+},
+{
+"function": "minecraft:set_name",
+"entity": "this",
+"name": [
+  {
+    "text": "Stone Sword 0/4 UC +",
+    "color": "gold",
+    "bold": true
+  },
+  {
+    "score": {
+      "name": "@s",
+      "objective": "stone_smelt",
+      "value": "@s"
+    },
+    "color": "gold",
+    "bold": true,
+    "italic": true
+  }
+],
+"conditions": [
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "stone_smelt": {
+        "min": 1,
+        "max": 999
+      },
+      "stoneprof": {
+        "min": 100,
+        "max": 199
+      }
+    }
+  }
+]
+},
+{
+"function": "minecraft:set_name",
+"entity": "this",
+"name": [
+  {
+    "text": "Stone Sword 0/4 R +",
+    "color": "gold",
+    "bold": true
+  },
+  {
+    "score": {
+      "name": "@s",
+      "objective": "stone_smelt",
+      "value": "@s"
+    },
+    "color": "gold",
+    "bold": true,
+    "italic": true
+  }
+],
+"conditions": [
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "stone_smelt": {
+        "min": 1,
+        "max": 999
+      },
+      "stoneprof": {
+        "min": 200,
+        "max": 299
+      }
+    }
+  }
+]
+},
+{
+"function": "minecraft:set_name",
+"entity": "this",
+"name": [
+  {
+    "text": "Stone Sword 0/4 SR +",
+    "color": "gold",
+    "bold": true
+  },
+  {
+    "score": {
+      "name": "@s",
+      "objective": "stone_smelt",
+      "value": "@s"
+    },
+    "color": "gold",
+    "bold": true,
+    "italic": true
+  }
+],
+"conditions": [
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "stone_smelt": {
+        "min": 1,
+        "max": 999
+      },
+      "stoneprof": {
+        "min": 300,
+        "max": 499
+      }
+    }
+  }
+]
+},
+{
+"function": "minecraft:set_name",
+"entity": "this",
+"name": [
+  {
+    "text": "Stone Sword 0/4 AR +",
+    "color": "gold",
+    "bold": true
+  },
+  {
+    "score": {
+      "name": "@s",
+      "objective": "stone_smelt",
+      "value": "@s"
+    },
+    "color": "gold",
+    "bold": true,
+    "italic": true
+  }
+],
+"conditions": [
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "stone_smelt": {
+        "min": 1,
+        "max": 999
+      },
+      "stoneprof": {
+        "min": 500,
+        "max": 501
+      }
+    }
+  }
+]
+}
+]

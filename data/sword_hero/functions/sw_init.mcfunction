@@ -9,11 +9,13 @@ scoreboard objectives add portal_smelt dummy
 scoreboard objectives add greed_smelt dummy
 scoreboard objectives add star_smelt dummy
 scoreboard objectives add wooden_smelt dummy
+scoreboard objectives add stone_smelt dummy
 scoreboard objectives add smelt trigger
 scoreboard objectives add party trigger
 scoreboard objectives add basic_sw trigger
 scoreboard objectives add disband trigger
 scoreboard objectives add check_energy trigger
+scoreboard objectives add weapon_copy trigger
 scoreboard objectives add take_energy trigger
 scoreboard objectives add give_energy trigger
 scoreboard objectives add sword-portal trigger
@@ -21,6 +23,7 @@ scoreboard objectives add sword-rope trigger
 scoreboard objectives add sword-greed trigger
 scoreboard objectives add sword-star trigger
 scoreboard objectives add sword-wooden trigger
+scoreboard objectives add sword-stone trigger
 scoreboard objectives add set_warp_a trigger
 scoreboard objectives add set_warp_b trigger
 scoreboard objectives add set_warp_c trigger
@@ -41,6 +44,7 @@ scoreboard objectives add portalprof dummy
 scoreboard objectives add greedprof dummy
 scoreboard objectives add starprof dummy
 scoreboard objectives add woodenprof dummy
+scoreboard objectives add stoneprof dummy
 scoreboard objectives add right_click minecraft.used:minecraft.carrot_on_a_stick
 gamerule sendCommandFeedback false
 scoreboard objectives add ass minecraft.custom:minecraft.sneak_time

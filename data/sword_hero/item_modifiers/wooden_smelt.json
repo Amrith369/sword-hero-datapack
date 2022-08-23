@@ -1,0 +1,332 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.02,
+        "operation": "multiply_total",
+        "id": "1b53e2a7-59d6-4bb2-b4a5-3c6923ea77ae",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "HP",
+        "amount": 0.02,
+        "operation": "multiply_total",
+        "id": "5f0f0629-d79d-44ce-9c18-48cbf233f3df",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "wooden_smelt": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.04,
+        "operation": "multiply_total",
+        "id": "23a2f851-1395-4ede-b623-9a39e01c4557",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "HP",
+        "amount": 0.04,
+        "operation": "multiply_total",
+        "id": "a82d68ce-f06d-4817-b883-368c7270a636",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "wooden_smelt": 2
+        }
+      }
+    ]
+  },
+  {
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.06,
+      "operation": "multiply_total",
+      "id": "2d070729-f55c-4c52-9dc2-5d2ac4e3bbaa",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.06,
+      "operation": "multiply_total",
+      "id": "7be607e1-a5a4-416c-a657-fa144f07e629",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 3
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.08,
+      "operation": "multiply_total",
+      "id": "2115509d-877b-4370-b9a7-70ae40de6bdb",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.08,
+      "operation": "multiply_total",
+      "id": "9710a0a9-5441-41df-aa5d-c6be26402f67",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 4
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.1,
+      "operation": "multiply_total",
+      "id": "e6716119-7374-4492-ab4f-8197c3bc8444",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.1,
+      "operation": "multiply_total",
+      "id": "215e8065-1c54-49ff-9e97-1b34c59ac3d1",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 5
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.12,
+      "operation": "multiply_total",
+      "id": "a834fa91-9a6a-43eb-b1eb-8bf92c2148d0",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.12,
+      "operation": "multiply_total",
+      "id": "ed8befcc-8055-4c92-b2e1-858baac9c82c",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 6
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.14,
+      "operation": "multiply_total",
+      "id": "a834fa91-9a6a-43eb-b1eb-8bf92c2149d0",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.14,
+      "operation": "multiply_total",
+      "id": "ed8befcc-8055-4c92-b2e1-858baac9c83c",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 7
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.16,
+      "operation": "multiply_total",
+      "id": "a834fa91-9a6a-43eb-b1eb-8bf92c2150d0",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.16,
+      "operation": "multiply_total",
+      "id": "ed8befcc-8055-4c92-b2e1-858baac9c84c",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 8
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.18,
+      "operation": "multiply_total",
+      "id": "a834fa91-9a6a-43eb-b1eb-8bf92c2151d0",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.18,
+      "operation": "multiply_total",
+      "id": "ed8befcc-8055-4c92-b2e1-858baac9c85c",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 9
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.2,
+      "operation": "multiply_total",
+      "id": "a834fa91-9a6a-43eb-b1eb-8bf92c2152d0",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.2,
+      "operation": "multiply_total",
+      "id": "ed8befcc-8055-4c92-b2e1-858baac9c86c",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 10
+      }
+    }
+  ]
+},
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "ATK",
+      "amount": 0.22,
+      "operation": "multiply_total",
+      "id": "a834fa91-9a6a-43eb-b1eb-8bf92c2153d0",
+      "slot": "mainhand"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "HP",
+      "amount": 0.22,
+      "operation": "multiply_total",
+      "id": "ed8befcc-8055-4c92-b2e1-858baac9c87c",
+      "slot": "mainhand"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wooden_smelt": 11
+      }
+    }
+  ]
+}
+]
