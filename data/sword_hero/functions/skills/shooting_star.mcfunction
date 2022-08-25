@@ -5,10 +5,12 @@ title @a[tag=sword,scores={right_click=1..,sp=20..},nbt={SelectedItem:{id:"minec
 execute at @s run summon armor_stand ^ ^1 ^5 {Tags:["star","global"],Invisible:1,NoGravity:1}
 execute at @e[tag=star] run particle dust 0.078 1.000 0.956 1 ~ ~ ~ 0 0 0 2 1 normal
 execute at @e[tag=star] run particle dust 0.078 1.000 0.969 1 ~ ~1.5 ~ 1 1 1 2 30 normal
+execute at @e[tag=star] run function sword_hero:particles/starblast
+execute at @e[tag=star] run function sword_hero:particles/starblastii
 execute at @e[tag=star] run summon minecraft:fireball ^ ^1 ^ {life:20,ExplosionPower:1,direction:[0.0,-2.0,0.0],power:[0.0,-2.0,0.0],Item:{id:"minecraft:heart_of_the_sea",Count:1b}}
-execute at @e[tag=star] run summon firework_rocket ^ ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
-execute at @e[tag=star] run summon firework_rocket ^1 ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
-execute at @e[tag=star] run summon firework_rocket ^-1 ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
+#execute at @e[tag=star] run summon firework_rocket ^ ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
+#execute at @e[tag=star] run summon firework_rocket ^1 ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
+#execute at @e[tag=star] run summon firework_rocket ^-1 ^ ^ {Life:1,LifeTime:1,ShotAtAngle:1b,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;581375,2402303],FadeColors:[I;16777215,12239871]}]}}}}
 execute at @e[tag=star] run scoreboard players remove @a[tag=sword,distance=0..7] sp 15
 kill @e[tag=star]
 scoreboard players set @s right_click 0

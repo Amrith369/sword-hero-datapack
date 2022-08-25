@@ -10,6 +10,10 @@ scoreboard objectives add greed_smelt dummy
 scoreboard objectives add star_smelt dummy
 scoreboard objectives add wooden_smelt dummy
 scoreboard objectives add stone_smelt dummy
+scoreboard objectives add iron_smelt dummy
+scoreboard objectives add gold_smelt dummy
+scoreboard objectives add diamond_smelt dummy
+scoreboard objectives add netherite_smelt dummy
 scoreboard objectives add smelt trigger
 scoreboard objectives add party trigger
 scoreboard objectives add basic_sw trigger
@@ -24,6 +28,10 @@ scoreboard objectives add sword-greed trigger
 scoreboard objectives add sword-star trigger
 scoreboard objectives add sword-wooden trigger
 scoreboard objectives add sword-stone trigger
+scoreboard objectives add sword-iron trigger
+scoreboard objectives add sword-gold trigger
+scoreboard objectives add sword-diamond trigger
+scoreboard objectives add sword-netherite trigger
 scoreboard objectives add set_warp_a trigger
 scoreboard objectives add set_warp_b trigger
 scoreboard objectives add set_warp_c trigger
@@ -45,6 +53,10 @@ scoreboard objectives add greedprof dummy
 scoreboard objectives add starprof dummy
 scoreboard objectives add woodenprof dummy
 scoreboard objectives add stoneprof dummy
+scoreboard objectives add ironprof dummy
+scoreboard objectives add goldprof dummy
+scoreboard objectives add diamondprof dummy
+scoreboard objectives add netheriteprof dummy
 scoreboard objectives add right_click minecraft.used:minecraft.carrot_on_a_stick
 gamerule sendCommandFeedback false
 scoreboard objectives add ass minecraft.custom:minecraft.sneak_time
