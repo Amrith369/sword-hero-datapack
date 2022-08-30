@@ -40,6 +40,9 @@ execute as @a[tag=sword,scores={basic_sw=1..}] run clear @s carrot_on_a_stick{sw
 execute as @a[tag=sword,scores={basic_sw=1..}] run clear @s wooden_sword{swh:1b}
 execute as @a[tag=sword,scores={basic_sw=1..}] run clear @s stone_sword{swh:1b}
 execute as @a[tag=sword,scores={basic_sw=1..}] run clear @s iron_sword{swh:1b}
+execute as @a[tag=sword,scores={basic_sw=1..}] run clear @s golden_sword{swh:1b}
+execute as @a[tag=sword,scores={basic_sw=1..}] run clear @s diamond_sword{swh:1b}
+execute as @a[tag=sword,scores={basic_sw=1..}] run clear @s netherite_sword{swh:1b}
 execute as @a[tag=sword,scores={basic_sw=1..}] run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 execute as @a[tag=sword,scores={basic_sw=1..}] run give @s minecraft:carrot_on_a_stick{display:{Name:'{"text":"Legendary Sword","color":"gold","bold":true}',Lore:['{"text":"-Abilities Unlocked-","italic":true}','{"text":"Equip Bonus: attack 3 agility 3"}']},HideFlags:1,Unbreakable:1b,swh:1b,CustomModelData:3690011,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;-187608077,1838040435,-1418259760,1506327830],Slot:"mainhand"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.02,Operation:0,UUID:[I;-1606460784,-656519506,-1315808417,104879726],Slot:"mainhand"}]} 1
 #-ROPE SWORD
@@ -49,6 +52,9 @@ execute as @a[tag=sword,scores={sword-rope=1..}] run clear @s carrot_on_a_stick{
 execute as @a[tag=sword,scores={sword-rope=1..}] run clear @s wooden_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-rope=1..}] run clear @s stone_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-rope=1..}] run clear @s iron_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-rope=1..}] run clear @s golden_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-rope=1..}] run clear @s diamond_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-rope=1..}] run clear @s netherite_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-rope=1..}] run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 scoreboard players add @a[tag=sword,scores={sword-rope=1..}] ropeprof 0
 scoreboard players add @a[tag=sword,scores={sword-rope=1..}] rope_smelt 0
@@ -62,6 +68,9 @@ execute as @a[tag=sword,scores={sword-portal=1..}] run clear @s carrot_on_a_stic
 execute as @a[tag=sword,scores={sword-portal=1..}] run clear @s wooden_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-portal=1..}] run clear @s stone_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-portal=1..}] run clear @s iron_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-portal=1..}] run clear @s golden_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-portal=1..}] run clear @s diamond_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-portal=1..}] run clear @s netherite_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-portal=1..}] run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 scoreboard players add @a[tag=sword,scores={sword-portal=1..}] portalprof 0
 scoreboard players add @a[tag=sword,scores={sword-portal=1..}] portal_smelt 0
@@ -75,6 +84,9 @@ execute as @a[tag=sword,scores={sword-greed=1..}] run clear @s carrot_on_a_stick
 execute as @a[tag=sword,scores={sword-greed=1..}] run clear @s wooden_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-greed=1..}] run clear @s stone_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-greed=1..}] run clear @s iron_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-greed=1..}] run clear @s golden_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-greed=1..}] run clear @s diamond_sword{swh:1b}
+execute as @a[tag=sword,scores={sword-greed=1..}] run clear @s netherite_sword{swh:1b}
 execute as @a[tag=sword,scores={sword-greed=1..}] run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 scoreboard players add @a[tag=sword,scores={sword-greed=1..}] greedprof 0
 scoreboard players add @a[tag=sword,scores={sword-greed=1..}] greed_smelt 0
@@ -84,16 +96,7 @@ execute as @a[tag=sword,scores={sword-greed=1..,greed_smelt=1..}] run function s
 #-STAR SWORD
 execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690015}}}] run function sword_hero:level_up/star_mastery
 execute as @e[type=item,limit=1,nbt={Item:{tag:{swh:1b}}}] run tellraw @a[tag=sword,scores={select=1..},advancements={sword_hero:swords/star=true}] {"text":"Siderite Sword","bold":true,"color":"#5991FF","clickEvent":{"action":"run_command","value":"/trigger sword-star add 1"}}
-execute as @a[tag=sword,scores={sword-star=1..}] run clear @s carrot_on_a_stick
-execute as @a[tag=sword,scores={sword-star=1..}] run clear @s wooden_sword{swh:1b}
-execute as @a[tag=sword,scores={sword-star=1..}] run clear @s stone_sword{swh:1b}
-execute as @a[tag=sword,scores={sword-star=1..}] run clear @s iron_sword{swh:1b}
-execute as @a[tag=sword,scores={sword-star=1..}] run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-scoreboard players add @a[tag=sword,scores={sword-star=1..}] starprof 0
-scoreboard players add @a[tag=sword,scores={sword-star=1..}] star_smelt 0
-execute as @a[tag=sword,scores={sword-star=1..,starprof=0..9,star_smelt=0}] run give @s carrot_on_a_stick{display:{Name:'{"text":"Siderite Sword 0/20 C","color":"gold","bold":true}',Lore:['{"text":"-Abilities Locked-"}','{"text":"equip bonus:"}','{"text":"skill: Shooting Star Sword"}']},swh:1b,CustomModelData:3690015,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:6,Operation:0,UUID:[I;-455555115,1679641992,-1761619034,668937757],Slot:"mainhand"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-210198264,-1206238600,-1180093127,-855528502],Slot:"mainhand"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.02,Operation:0,UUID:[I;-173912168,-26130579,-1582449710,-976207972],Slot:"mainhand"}]} 1
-execute as @a[tag=sword,scores={sword-star=1..,starprof=10..,star_smelt=0}] run function sword_hero:level_up/basic
-execute as @a[tag=sword,scores={sword-star=1..,star_smelt=1..}] run function sword_hero:level_up/star_smelt
+execute as @a[scores={sword-star=1..}] run function sword_hero:weapons/star
 #-WOODEN SWORD
 execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b}}}] run function sword_hero:level_up/wooden_mastery
 #execute as @e[type=item,nbt={Item:{tag:{swh:1b}}}] run function sword_hero:weapons/wooden
@@ -107,6 +110,18 @@ execute as @a[scores={sword-stone=1..}] run function sword_hero:weapons/stone
 execute as @a[nbt={SelectedItem:{id:"minecraft:iron_sword",Count:1b,tag:{swh:1b}}}] run function sword_hero:level_up/iron_mastery
 execute as @e[type=item,limit=1,nbt={Item:{tag:{swh:1b}}}] run tellraw @a[tag=sword,scores={select=1..},advancements={sword_hero:swords/iron=true}] {"text":"Iron Sword","bold":true,"color":"#77a7ef","clickEvent":{"action":"run_command","value":"/trigger sword-iron add 1"}}
 execute as @a[scores={sword-iron=1..}] run function sword_hero:weapons/iron
+#-GOLD SWORD
+execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",Count:1b,tag:{swh:1b}}}] run function sword_hero:level_up/gold_mastery
+execute as @e[type=item,limit=1,nbt={Item:{tag:{swh:1b}}}] run tellraw @a[tag=sword,scores={select=1..},advancements={sword_hero:swords/gold=true}] {"text":"Gold Sword","bold":true,"color":"#43c394","clickEvent":{"action":"run_command","value":"/trigger sword-gold add 1"}}
+execute as @a[scores={sword-gold=1..}] run function sword_hero:weapons/gold
+#-DIAMOND SWORD
+execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b}}}] run function sword_hero:level_up/diamond_mastery
+execute as @e[type=item,limit=1,nbt={Item:{tag:{swh:1b}}}] run tellraw @a[tag=sword,scores={select=1..},advancements={sword_hero:swords/diamond=true}] {"text":"Diamond Sword","bold":true,"color":"#26ddd7","clickEvent":{"action":"run_command","value":"/trigger sword-diamond add 1"}}
+execute as @a[scores={sword-diamond=1..}] run function sword_hero:weapons/diamond
+#-NETHERITE SWORD
+execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",Count:1b,tag:{swh:1b}}}] run function sword_hero:level_up/netherite_mastery
+execute as @e[type=item,limit=1,nbt={Item:{tag:{swh:1b}}}] run tellraw @a[tag=sword,scores={select=1..},advancements={sword_hero:swords/netherite=true}] {"text":"Netherite Sword","bold":true,"color":"#554c8a","clickEvent":{"action":"run_command","value":"/trigger sword-netherite add 1"}}
+execute as @a[scores={sword-netherite=1..}] run function sword_hero:weapons/netherite
 #SKILLS
 #-AIR STRIKE BASH
 execute as @a[tag=sword,scores={right_click=1..,sp=20..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690012}}}] run function sword_hero:skills/air_strike_bash
@@ -124,6 +139,8 @@ execute as @a[tag=sword,scores={sp=30..},nbt={SelectedItem:{id:"minecraft:carrot
 execute as @a[tag=sword,scores={right_click=1..,sp=20..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690015}}}] run function sword_hero:skills/shooting_star
 #-WOODEN
 execute as @a[tag=sword,nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:skills/training
+#-NETHERITE
+execute as @a[tag=sword,nbt={SelectedItem:{id:"minecraft:netherite_sword",Count:1b,tag:{swh:1b,CustomModelData:3690021}}}] run function sword_hero:skills/heat
 #POTIONS
 execute as @a[tag=sword,nbt={SelectedItem:{id:"minecraft:blaze_powder"}},scores={craft_sp_potion=1..}] run function sword_hero:crafting/soulsoothing
 scoreboard players add @a[tag=sword,scores={sp=..300},nbt={AbsorptionAmount:20f}] sp 50
@@ -131,10 +148,13 @@ clear @a[tag=sword,nbt={AbsorptionAmount:20f}] glass_bottle 1
 #SMELTING
 execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690012}}}] run function sword_hero:level_up/smelting_rope
 execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690014}}}] run function sword_hero:level_up/smelting_portal
-execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690015}}}] run function sword_hero:level_up/smelting_star
+execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelt-id
 execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690016}}}] run function sword_hero:level_up/smelting-wooden/smelt-id
 execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:stone_sword",Count:1b,tag:{swh:1b,CustomModelData:3690017}}}] run function sword_hero:level_up/smelting-stone/smelt-id
 execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:iron_sword",Count:1b,tag:{swh:1b,CustomModelData:3690018}}}] run function sword_hero:level_up/smelting-iron/smelt-id
+execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:golden_sword",Count:1b,tag:{swh:1b,CustomModelData:3690019}}}] run function sword_hero:level_up/smelting-gold/smelt-id
+execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelt-id
+execute as @a[scores={smelt=1..},nbt={SelectedItem:{id:"minecraft:netherite_sword",Count:1b,tag:{swh:1b,CustomModelData:3690021}}}] run function sword_hero:level_up/smelting-netherite/smelt-id
 #STATUS
 execute as @a[tag=sword,scores={status_all=1..}] run function sword_hero:level_up/status_all
 execute as @a[tag=sword,scores={take_energy=1..}] run function sword_hero:level_up/energy_reset
@@ -159,6 +179,9 @@ scoreboard players enable @a[tag=sword,advancements={sword_hero:swords/star=true
 scoreboard players enable @a[tag=sword,advancements={sword_hero:swords/wooden=true}] sword-wooden
 scoreboard players enable @a[tag=sword,advancements={sword_hero:swords/stone=true}] sword-stone
 scoreboard players enable @a[tag=sword,advancements={sword_hero:swords/iron=true}] sword-iron
+scoreboard players enable @a[tag=sword,advancements={sword_hero:swords/gold=true}] sword-gold
+scoreboard players enable @a[tag=sword,advancements={sword_hero:swords/diamond=true}] sword-diamond
+scoreboard players enable @a[tag=sword,advancements={sword_hero:swords/netherite=true}] sword-netherite
 scoreboard players enable @a[tag=sword,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:3690013}}}] guillo
 scoreboard players enable @a[tag=sword] status
 scoreboard players add @a[tag=sword] ropeprof 0
@@ -175,6 +198,9 @@ scoreboard players set @a[tag=sword,scores={sword-greed=1..},limit=1] sword-gree
 scoreboard players set @a[tag=sword,scores={sword-wooden=1..},limit=1] sword-wooden 0
 scoreboard players set @a[tag=sword,scores={sword-stone=1..},limit=1] sword-stone 0
 scoreboard players set @a[tag=sword,scores={sword-iron=1..},limit=1] sword-iron 0
+scoreboard players set @a[tag=sword,scores={sword-gold=1..},limit=1] sword-gold 0
+scoreboard players set @a[tag=sword,scores={sword-diamond=1..},limit=1] sword-diamond 0
+scoreboard players set @a[tag=sword,scores={sword-netherite=1..},limit=1] sword-netherite 0
 scoreboard players set @a[tag=sword,scores={basic_sw=1..}] basic_sw 0
 scoreboard players set @a[tag=sword,scores={select=1..}] select 0
 scoreboard players set @a[tag=sword,scores={status=1..}] status 0

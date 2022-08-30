@@ -1,0 +1,332 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.02,
+        "operation": "multiply_total",
+        "id": "7c83ef25-62c5-4f59-80e5-91983f3702cf",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.02,
+        "operation": "multiply_total",
+        "id": "9d1c0339-df6a-4525-8d43-4a4ca83a7a1f",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.04,
+        "operation": "multiply_total",
+        "id": "f9df6ccf-d172-4f35-9260-7bcc65f315f8",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.04,
+        "operation": "multiply_total",
+        "id": "08ab991a-35ea-47fd-a5b6-bfaf52779612",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 2
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.06,
+        "operation": "multiply_total",
+        "id": "b8802f6d-f3a5-4281-8a60-897168f35640",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.06,
+        "operation": "multiply_total",
+        "id": "9738f343-82ce-44cf-b764-f607e81c7c25",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 3
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.08,
+        "operation": "multiply_total",
+        "id": "047a6dd4-806e-449c-83c9-6dbf2d627e12",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.08,
+        "operation": "multiply_total",
+        "id": "260f1582-d236-4123-957a-7071140355f2",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 4
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.1,
+        "operation": "multiply_total",
+        "id": "b62ebf84-ebe0-404d-8adc-b8ac4894a2d8",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.1,
+        "operation": "multiply_total",
+        "id": "bff3dedf-b79d-44ca-9000-15c289ceae0a",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 5
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.12,
+        "operation": "multiply_total",
+        "id": "2ae559c1-cec4-4831-8df7-fdd90f68038b",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.12,
+        "operation": "multiply_total",
+        "id": "85c18d8e-b56c-40b8-b246-d2903024de3d",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 6
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.14,
+        "operation": "multiply_total",
+        "id": "9374e4f0-bb99-419a-aa32-7e2c474bad15",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.14,
+        "operation": "multiply_total",
+        "id": "75eddae1-0266-4869-9d5e-8cb141d4e6ff",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 7
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.16,
+        "operation": "multiply_total",
+        "id": "4b09607e-0ea3-4aa9-9b81-8f5ae5ca58ab",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.16,
+        "operation": "multiply_total",
+        "id": "54a60945-cf73-418f-8475-66ad9944012f",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 8
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.18,
+        "operation": "multiply_total",
+        "id": "9a4ae76e-648f-4b28-bb52-0db3c39f2d40",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.18,
+        "operation": "multiply_total",
+        "id": "08c944ec-1293-41b8-b1d8-87ba0d7b912e",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 9
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.2,
+        "operation": "multiply_total",
+        "id": "9b769ac2-f3f5-4bf7-b66a-1da43392c8ae",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.2,
+        "operation": "multiply_total",
+        "id": "457c8148-65ac-4877-832e-c6799cb97aa7",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 10
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.22,
+        "operation": "multiply_total",
+        "id": "5ee9ad4b-f79c-4960-8dcb-6dabd13aa9c5",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "HP",
+        "amount": 0.22,
+        "operation": "multiply_total",
+        "id": "3ab510a6-d17e-4422-9105-d82911f3306c",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "diamond_smelt": 11
+        }
+      }
+    ]
+  }
+]

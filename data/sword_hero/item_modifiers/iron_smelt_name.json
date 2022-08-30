@@ -4,7 +4,7 @@
   "entity": "this",
   "name": [
     {
-      "text": "Iron Sword 0/4 C +",
+      "text": "Iron Sword 0/6 C +",
       "color": "gold",
       "bold": true
     },
@@ -41,7 +41,7 @@
 "entity": "this",
 "name": [
   {
-    "text": "Iron Sword 0/4 UC +",
+    "text": "Iron Sword 0/6 UC +",
     "color": "gold",
     "bold": true
   },
@@ -78,7 +78,7 @@
 "entity": "this",
 "name": [
   {
-    "text": "Iron Sword 0/4 R +",
+    "text": "Iron Sword 0/6 R +",
     "color": "gold",
     "bold": true
   },
@@ -115,7 +115,7 @@
 "entity": "this",
 "name": [
   {
-    "text": "Iron Sword 0/4 SR +",
+    "text": "Iron Sword 0/6 SR +",
     "color": "gold",
     "bold": true
   },
@@ -152,7 +152,7 @@
 "entity": "this",
 "name": [
   {
-    "text": "Iron Sword 0/4 AR +",
+    "text": "Iron Sword 0/6 AR +",
     "color": "gold",
     "bold": true
   },

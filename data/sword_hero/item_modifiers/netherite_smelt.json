@@ -1,0 +1,244 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.03,
+        "operation": "multiply_total",
+        "id": "70af0cb7-701c-46c2-9c74-7dcbdbf4d2f0",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.06,
+        "operation": "multiply_total",
+        "id": "3b17afa9-bfd1-4c57-99fd-15b50d4b7d57",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 2
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.09,
+        "operation": "multiply_total",
+        "id": "a6b6440a-9cd0-461c-977c-9467a8198d25",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 3
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.12,
+        "operation": "multiply_total",
+        "id": "56459f77-a91d-4597-91d4-bee14e351fbb",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 4
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.15,
+        "operation": "multiply_total",
+        "id": "ac0277a3-e988-4d90-af4e-5ffa96213a92",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 5
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.18,
+        "operation": "multiply_total",
+        "id": "2245943b-13d6-441e-8eab-452c858eda87",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 6
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.21,
+        "operation": "multiply_total",
+        "id": "079d6bd7-aa51-4e21-afdb-872f45e7a029",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 7
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.24,
+        "operation": "multiply_total",
+        "id": "2e6d2001-4d3b-44df-bb2c-e4de9e08ba87",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 8
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.27,
+        "operation": "multiply_total",
+        "id": "7e57fa10-18dc-4107-b03f-02ce9c7b5135",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 9
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.3,
+        "operation": "multiply_total",
+        "id": "117421df-dcbb-444f-b211-ba381949bb97",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 10
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "ATK",
+        "amount": 0.33,
+        "operation": "multiply_total",
+        "id": "979b2af7-c673-4316-a736-4f30764072ed",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "netherite_smelt": 11
+        }
+      }
+    ]
+  }
+]

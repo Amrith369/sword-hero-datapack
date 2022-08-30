@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Diamond Sword",
+            "color": "gold",
+            "italic": true
+        },
+        "description": {
+            "text": "<abilities locked> equip bonus: defense 3"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{CustomModelData:3690020}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "skillone": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "sword_hero:swords/gold"
+}

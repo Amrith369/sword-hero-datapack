@@ -1,0 +1,11 @@
+execute as @a[scores={smelt=1..,diamond_smelt=0},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-1
+execute as @a[scores={smelt=1..,diamond_smelt=1},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-2
+execute as @a[scores={smelt=1..,diamond_smelt=2},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-3
+execute as @a[scores={smelt=1..,diamond_smelt=3},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-4
+execute as @a[scores={smelt=1..,diamond_smelt=4},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-5
+execute as @a[scores={smelt=1..,diamond_smelt=5},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-6
+execute as @a[scores={smelt=1..,diamond_smelt=6},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-7
+execute as @a[scores={smelt=1..,diamond_smelt=7},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-8
+execute as @a[scores={smelt=1..,diamond_smelt=8},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-9
+execute as @a[scores={smelt=1..,diamond_smelt=9},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-10
+execute as @a[scores={smelt=1..,diamond_smelt=10},nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{swh:1b,CustomModelData:3690020}}}] run function sword_hero:level_up/smelting-diamond/smelting_diamond-11
