@@ -167,6 +167,9 @@ scoreboard players set @a[tag=shield,scores={party=1..}] party 0
 scoreboard players set @a[tag=shield,scores={disband=1..}] disband 0
 #ENABLE SCORES
 scoreboard players enable @a[tag=sword] absorb
+scoreboard players enable @a[tag=sword] take_energy
+scoreboard players enable @a[tag=sword] give_energy
+scoreboard players enable @a[tag=sword] check_energy
 scoreboard players enable @a[tag=sword] weapon_copy
 scoreboard players enable @a[tag=sword] craft_sp_potion
 scoreboard players enable @a[tag=sword] basic_sw
