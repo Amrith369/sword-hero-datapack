@@ -1,0 +1,11 @@
+execute as @a[scores={smelt=1..,star_smelt=0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-1
+execute as @a[scores={smelt=1..,star_smelt=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-2
+execute as @a[scores={smelt=1..,star_smelt=2},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-3
+execute as @a[scores={smelt=1..,star_smelt=3},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-4
+execute as @a[scores={smelt=1..,star_smelt=4},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-5
+execute as @a[scores={smelt=1..,star_smelt=5},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-6
+execute as @a[scores={smelt=1..,star_smelt=6},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-7
+execute as @a[scores={smelt=1..,star_smelt=7},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-8
+execute as @a[scores={smelt=1..,star_smelt=8},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-9
+execute as @a[scores={smelt=1..,star_smelt=9},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-10
+execute as @a[scores={smelt=1..,star_smelt=10},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{swh:1b,CustomModelData:3690015}}}] run function sword_hero:level_up/smelting-star/smelting_star-11

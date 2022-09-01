@@ -11,3 +11,5 @@ tellraw @a[tag=sword,scores={weapon_copy=1..},advancements={sword_hero:swords/di
 advancement grant @a[tag=sword,scores={weapon_copy=1..},advancements={sword_hero:swords/diamond=false},nbt={Inventory:[{id:"minecraft:diamond_sword",Count:1b}]}] only sword_hero:swords/diamond
 tellraw @a[tag=sword,scores={weapon_copy=1..},advancements={sword_hero:swords/netherite=false},nbt={Inventory:[{id:"minecraft:netherite_sword",Count:1b}]}] {"text":"Weapon Copy: Netherite Sword Acquired","italic":true,"color":"gold"}
 advancement grant @a[tag=sword,scores={weapon_copy=1..},advancements={sword_hero:swords/netherite=false},nbt={Inventory:[{id:"minecraft:netherite_sword",Count:1b}]}] only sword_hero:swords/netherite
+tellraw @a[tag=sword,scores={weapon_copy=1..},advancements={sword_hero:swords/star=false},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:3690015}}]}] {"text":"Weapon Copy: Siderite Sword Acquired","italic":true,"color":"gold"}
+advancement grant @a[tag=sword,scores={weapon_copy=1..},advancements={sword_hero:swords/star=false},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:3690015}}]}] only sword_hero:swords/star
